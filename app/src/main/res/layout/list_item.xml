@@ -1,0 +1,72 @@
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff">
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/kdmk"
+            android:width="80dip"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/mkname"
+        android:width="130dip"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+        <!--<TextView
+            android:id="@+id/prodi"
+            android:width="120dip"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textStyle="bold" />-->
+
+        <TextView android:id="@+id/kelas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:width="40dip"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/jam"
+        android:layout_width="fill_parent"
+        android:width="100dip"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000" />
+    <TextView android:id="@+id/lecture2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:width="60dip"
+        android:gravity="center"
+        android:textStyle="bold"/>
+        <TextView android:id="@+id/smt2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:width="70dip"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+
+    </TableRow>
+
+
+</TableLayout>

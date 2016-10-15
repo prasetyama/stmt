@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#fff"
+    tools:context=".FormEmail" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/editTextTo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:text="ourwallmagz@gmail.com"
+            android:visibility="gone"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextTo"
+            android:hint="Nama"
+            android:textColorHint="#95a5a6"
+            android:textColor="#000"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/editTextNim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextName"
+            android:textColorHint="#95a5a6"
+            android:textColor="#000"
+            android:hint="Nim"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/editTextemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextNim"
+            android:layout_marginBottom="10dip"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#95a5a6"
+            android:textColor="#000"
+            android:hint="Email"
+            android:singleLine="true" />
+        <Spinner
+            android:id="@+id/kategori"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_below="@id/editTextemail"
+            android:background="#95a5a6"
+            android:popupBackground="#95a5a6"
+            />
+
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/kategori"
+            android:layout_margin="5dp"
+            android:gravity="top|left"
+            android:textColorHint="#95a5a6"
+            android:textColor="#000"
+            android:hint="type message here!"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/editTextMessage"
+            android:layout_margin="5dp"
+            android:textColor="#fff"
+            android:text="Send" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

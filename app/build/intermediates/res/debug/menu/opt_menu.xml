@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tambah"
+        android:title="Tambah Data" />
+</menu><!-- From: file:/C:/Users/arief/AndroidStudioProjects/STMT/app/src/main/res/menu/opt_menu.xml -->

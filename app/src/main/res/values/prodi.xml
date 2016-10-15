@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prodi">
+        <item>KONSENTRASI D3 MLM</item>
+        <item>KONSENTRASI D3 MTL</item>
+        <item>KONSENTRASI D3 MTU</item>
+        <item>KONSENTRASI S1 MLM</item>
+        <item>KONSENTRASI S1 MTD</item>
+        <item>KONSENTRASI S1 MTL</item>
+        <item>KONSENTRASI S1 MTU</item>
+    </string-array>
+</resources>

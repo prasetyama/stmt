@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/tanggal"
+        android:icon="@mipmap/ic_schedule"
+        android:title="tanggal"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/typeExam"
+        android:showAsAction="always"
+        android:title=""
+        android:actionViewClass="android.widget.Spinner" />
+    <item
+        android:id="@+id/prodiUjian"
+        android:showAsAction="always"
+        android:title=""
+        android:actionViewClass="android.widget.Spinner" />
+
+</menu><!-- From: file:/C:/Users/arief/AndroidStudioProjects/STMT/app/src/main/res/menu/jadwalujianmenu.xml -->

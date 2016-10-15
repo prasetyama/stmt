@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search, should appear as action button -->
+
+    <item android:id="@+id/tanggal"
+        android:icon="@mipmap/ic_schedule"
+        android:title="tanggal"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/prodijadwal"
+        android:showAsAction="always"
+        android:title=""
+        android:actionViewClass="android.widget.Spinner" />
+
+    <item android:id="@+id/pesan"
+        android:icon="@mipmap/logo_pesan"
+        android:title="pesan"
+        android:showAsAction="always"
+        />
+
+
+</menu>

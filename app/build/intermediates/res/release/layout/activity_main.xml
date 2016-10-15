@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <HorizontalScrollView android:id="@+id/HorizontalScrollView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:scrollbarThumbHorizontal="@drawable/scrollbar"
+        xmlns:android="http://schemas.android.com/apk/res/android">>
+
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0f74ba"
+    android:orientation="vertical">
+
+
+    <LinearLayout android:id="@+id/header"
+    android:background="#0f74ba"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    >
+
+        <TextView android:id="@+id/kdmk"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:text="Kode MK"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:width="100dip"
+            android:height="30dip"
+            android:gravity="center"
+            />
+            <TextView android:id="@+id/matakuliah"
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:text="Mata Kuliah"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:width="140dip"
+                android:height="30dip"
+                android:gravity="center" />
+        <!--<TextView android:id="@+id/prodiname"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:text="Prodi"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:width="120dip"
+            android:height="30dip"
+            android:gravity="center"
+            />-->
+
+        <TextView android:id="@+id/kelasan"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:text="Kelas"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:width="110dip"
+            android:height="30dip"
+            />
+
+    <TextView android:id="@+id/jammasuk"
+        android:layout_height="fill_parent"
+        android:layout_width="wrap_content"
+        android:text="jam"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:width="90dip"
+        android:layout_gravity="center"
+        android:height="30dip"
+        />
+        <TextView android:id="@+id/lecture"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:text="Lecture"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:width="120dip"
+            android:layout_gravity="center"
+            android:height="30dip"
+            />
+        <TextView android:id="@+id/smt"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:text="Semester"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:width="90dip"
+            android:height="30dip"
+            />
+
+
+</LinearLayout>
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+    </HorizontalScrollView><!-- From: file:/C:/Users/arief/AndroidStudioProjects/STMT/app/src/main/res/layout/activity_main.xml -->
